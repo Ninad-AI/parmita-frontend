@@ -1,5 +1,5 @@
 export const PROFILE = {
   name: "Parmita Katkar",
-  role: "Yoga Coach and Model",
+  role: "Face Yoga Coach",
   image: "/parmita.jpeg",
 } as const;
