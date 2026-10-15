@@ -135,7 +135,7 @@ export default function VoiceSessionUI({
                             alt={creatorName}
                             fill
                             sizes={`${IMG_SIZE}px`}
-                            className="object-cover"
+                            className="object-cover object-[50%_20%]"
                             priority
                         />
                         {/* Speaking overlay */}

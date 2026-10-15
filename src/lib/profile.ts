@@ -1,5 +1,5 @@
 export const PROFILE = {
-  name: "Bhagyshree Mote",
-  role: "Actress and Filmmaker",
-  image: "/bhagyashree-mote.jpg",
+  name: "Parmita Katkar",
+  role: "Yoga Coach and Model",
+  image: "/parmita.jpeg",
 } as const;

@@ -9,7 +9,7 @@ import { PROFILE } from "@/lib/profile";
 
 type FlowState = "idle" | "active";
 
-const WS_URL = process.env.NEXT_PUBLIC_BACKEND_WS_URL || "ws://localhost:8000/ws/audio/bhagyashree-mote";
+const WS_URL = process.env.NEXT_PUBLIC_BACKEND_WS_URL || "ws://localhost:8000/ws/audio/parmita-katkar";
 
 const SESSION_MINUTES = 15;
   
@@ -368,7 +368,7 @@ export default function Home() {
                   alt={PROFILE.name}
                   fill
                   sizes="(min-width: 768px) 500px, (min-width: 640px) 300px, (min-width: 475px) 240px, 200px"
-                  className="object-cover object-[55%_25%] scale-[1.12] origin-[100%_25%]"
+                  className="object-cover object-[50%_20%]"
                   priority
                 />
                 <div className="absolute inset-0 bg-linear-to-t from-black/50 via-transparent to-transparent opacity-60" />
